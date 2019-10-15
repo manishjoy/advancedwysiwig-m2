@@ -1,9 +1,9 @@
 # ManishJoy_AdvancedWysiwig - Magento 2.3.x Module
 
 ## Module Purpose
-###### In Magento 2.3 and greater, Magento team has changed WYSIWYG editor, instead of TinyMCE 3 Magento started use TinyMCE 4. Default Magento TinyMCE 4 editor does not include a lot of tools for example text color or text background and this can be inconvenient for the content manager.
+In Magento 2.3 and greater, Magento team has changed WYSIWYG editor, instead of TinyMCE 3 Magento started use TinyMCE 4. Default Magento TinyMCE 4 editor does not include a lot of tools for example text color or text background and this can be inconvenient for the content manager.
 
-###### You can easily solve this issue by installing this extension. This extension allows you to extend TinyMCE 4 tools in Magento 2.3.x, e.g.: add text color, image, html code, undo-redo, styleselect, fontsizeselect, forecolor backcolor, bold, italic, underline, strikethrough, alignleft, aligncenter, alignright alignjustify, bullist, numlist, outdent, indent, table, image, code.
+You can easily solve this issue by installing this extension. This extension allows you to extend TinyMCE 4 tools in Magento 2.3.x, e.g.: add text color, image, html code, undo-redo, styleselect, fontsizeselect, forecolor backcolor, bold, italic, underline, strikethrough, alignleft, aligncenter, alignright alignjustify, bullist, numlist, outdent, indent, table, image, code.
 
 ### Screenshots:
 
