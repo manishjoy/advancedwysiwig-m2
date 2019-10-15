@@ -1,51 +1,79 @@
-# Mage2 Module ManishJoy AdvancedWysiwig
+# ManishJoy_AdvancedWysiwig - Magento 2.3.x Module
 
-    ``manishjoy/module-advancedwysiwig``
+## Module Purpose
+### In Magento 2.3 and greater, Magento team has changed WYSIWYG editor, instead of TinyMCE 3 Magento started use TinyMCE 4. Default Magento TinyMCE 4 editor does not include a lot of tools for example text color or text background and this can be inconvenient for the content manager.
 
- - [Main Functionalities](#markdown-header-main-functionalities)
- - [Installation](#markdown-header-installation)
- - [Configuration](#markdown-header-configuration)
- - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
+### You can easily solve this issue by installing this extension. This extension allows you to extend TinyMCE 4 tools in Magento 2.3.x, e.g.: add text color, image, html code, undo-redo, styleselect, fontsizeselect, forecolor backcolor, bold, italic, underline, strikethrough, alignleft, aligncenter, alignright alignjustify, bullist, numlist, outdent, indent, table, image, code.
 
+### Screenshots:
 
-## Main Functionalities
+<img src="https://i.ibb.co/Yfn3N2S/Selection-054.png" alt="Extended WYSIWYG Editor" title="Extended WYSIWYG Editor">
 
+___________________________________________________________________________________________________
 
-## Installation
-\* = in production please use the `--keep-generated` option
+## Installation:
+1. Go to Magento2 root folder
 
-### Type 1: Zip file
+2. Enter following commands to install module:
 
- - Unzip the zip file in `app/code/ManishJoy`
- - Enable the module by running `php bin/magento module:enable ManishJoy_AdvancedWysiwig`
- - Apply database updates by running `php bin/magento setup:upgrade`\*
- - Flush the cache by running `php bin/magento cache:flush`
+    ```bash
+    composer config repositories.manishjoyadvancedwysiwyg git https://github.com/manishjoy/advancedwysiwig-m2.git
+    composer require manishjoy/module-advancedwysiwig:dev-master
+    ```
+   Wait while dependencies are updated.
 
-### Type 2: Composer
+3. Enter following commands to enable module:
 
- - Make the module available in a composer repository for example:
-    - private repository `repo.magento.com`
-    - public repository `packagist.org`
-    - public github repository as vcs
- - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require manishjoy/module-advancedwysiwig`
- - enable the module by running `php bin/magento module:enable ManishJoy_AdvancedWysiwig`
- - apply database updates by running `php bin/magento setup:upgrade`\*
- - Flush the cache by running `php bin/magento cache:flush`
+    ```bash
+    php bin/magento module:enable ManishJoy_AdvancedWysiwig --clear-static-content
+    php bin/magento setup:upgrade
+    ```
 
+___________________________________________________________________________________________________
 
-## Configuration
+### The extension is free and always will be
 
+## Additional Charges:
+#### Installation: $ 20
+#### Support: $ 40 /6 months
 
+___________________________________________________________________________________________________
+## Liked my work?
 
+<a href="https://www.paypal.me/manishjoy" rel="nofollow"><img height="36" src="https://manishjoy.github.io/img/coffee-btn-image.png" border="0" alt="Buy Me a Coffee" data-canonical-src="https://manishjoy.github.io/img/coffee-btn-image.png" style="max-width:100%;"></a>
 
-## Specifications
+--- OR ---
 
+<a href='https://www.patreon.com/manishjoy' target='_blank'><img src='https://i.ibb.co/rHdTFtj/patreon-btn.jpg' width='200' border='0' alt='SUPPORT ME ON PATREON' /></a>
 
+___________________________________________________________________________________________________
+## Prerequisites
 
+### Use the following table to verify you have the correct prerequisites to install this Extension.
+<table>
+	<tbody>
+		<tr>
+			<th>Prerequisite</th>
+			<th>How to check</th>
+			<th>For more information</th>
+		</tr>
+	<tr>
+		<td>Apache 2.2 or 2.4</td>
+		<td>Ubuntu: <code>apache2 -v</code><br>
+		CentOS: <code>httpd -v</code></td>
+		<td><a href="http://devdocs.magento.com/guides/v2.0/install-gde/prereq/apache.html">Apache</a></td>
+	</tr>
+	<tr>
+		<td>PHP 5.6.x, 7.1.x</td>
+		<td><code>php -v</code></td>
+		<td><a href="http://devdocs.magento.com/guides/v2.0/install-gde/prereq/php-ubuntu.html">PHP Ubuntu</a><br><a href="http://devdocs.magento.com/guides/v2.0/install-gde/prereq/php-centos.html">PHP CentOS</a></td>
+	</tr>
+	<tr><td>MySQL 5.6.x</td>
+	<td><code>mysql -u [root user name] -p</code></td>
+	<td><a href="http://devdocs.magento.com/guides/v2.0/install-gde/prereq/mysql.html">MySQL</a></td>
+	</tr>
+</tbody>
+</table>
 
-## Attributes
-
-
-
+___________________________________________________________________________________________________
+### Feedback and Support <a href="mailto:manishjoy1993@hotmail.com">manishjoy1993@hotmail.com</a>
