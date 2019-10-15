@@ -1,0 +1,24 @@
+{
+    "name": "manishjoy/module-advancedwysiwig",
+    "description": "Extended TinyMCE 4 in Magento 2",
+    "type": "magento2-module",
+    "version": "dev-master",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Manish Joy",
+            "email": "manishjoy1993@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ManishJoy\\AdvancedWysiwig\\": ""
+        }
+    }
+}
